@@ -1,0 +1,10 @@
+# Boudelier Électricité — robots.txt
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://sitejj.vercel.app/sitemap.xml
+
+# Ne pas indexer les ressources techniques
+Disallow: /cdn-cgi/
+Disallow: /*.json$
